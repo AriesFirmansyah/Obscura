@@ -1,0 +1,64 @@
+  @font-face {
+    font-family: bodyFontReg;
+    src: url(/font/baru/TrajanPro-Bold.otf);
+    font-weight: bold;
+  }
+  body {
+    background-image: url("./img/bg_home_page.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    padding: 1vh 5vw;
+    font-family: "bodyFontReg";
+    font-weight: 900;
+    overflow: hidden;
+  }
+  .navMenu {
+    font-weight: bold;
+    color: goldenrod;
+    margin-top: -60px;
+  }
+  .dropdown-menu {
+    background-color:  #a56231;
+    border-radius: 0px;
+    border: transparent;
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+  .dropdown-menu li a{
+    color: aliceblue;
+  }
+  .dropdown-menu li a:hover {
+    background-color:  #ca783e;
+    color: aliceblue;
+  }
+  .fontGoldNav {
+    background: linear-gradient(to right, #ce7e3e, #ffff 47%, #ce7e3e 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    text-transform: uppercase;	
+    margin: 0;
+    font-size: 20px;
+  }
+  .fontGold {
+    /* background: linear-gradient(to right, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%);  */
+    background: linear-gradient(to right, #ce7e3e, #ffff 47%, #ce7e3e 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    text-transform: uppercase;	
+    margin: 0;
+    font-size: 20px;
+    
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    float: right;
+    background-color: transparent;
+    text-transform: lowercase;
+  }

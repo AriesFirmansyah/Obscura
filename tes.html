@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+html {
+	height: 100%;
+}
+
+body {
+    background-color:lightblue;
+}
+
+h1 {
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+	text-transform: uppercase;	
+	margin: 0;
+	font-weight: bold;
+}
+
+h1::after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+	top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+		-1px 0 1px #c6bb9f, 
+		0 1px 1px #c6bb9f, 
+		5px 5px 10px rgba(0, 0, 0, 0.4),
+		-5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+.card2 {
+  position: relative;
+  border: 5px solid transparent;
+  background: #f2f2f2;
+  background-clip: padding-box;
+  
+  border-radius: 10px;
+  width: 100px;
+}
+
+.card2::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  background: linear-gradient(to bottom right, #22c1c3, #fdbb2d);
+  z-index: -1;
+  border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <h1 data-heading="Winner">Winner</h1>
+    </div>
+    <div class="card2">
+        halo
+      </div>
+    <a href="https://www.google.com/">
+        <div class="card2">
+            halo
+          </div>
+    </a>
+</body>
+</html>

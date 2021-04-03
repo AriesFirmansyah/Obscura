@@ -1,0 +1,77 @@
+@font-face {
+    font-family: bodyFontReg;
+    src: url(/font/baru/TrajanPro-Bold.otf);
+    font-weight: bold;
+  }
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+.bodyTextGold {
+    background: linear-gradient(to right, #ce7e3e 10%, #ffff 56%, #ce7e3e 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    text-transform: uppercase;	
+    margin: 0;
+    /* font-family: "bodyFontBaskerville"; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bg {
+    height:100%; 
+    background-repeat: no-repeat; 
+    background-image: url("./../img/bg_about\ us\ comitee.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "bodyFontReg";
+    color:#573d28;
+    background-position: center;
+}
+.dropdown-menu {
+    background-color:  #a56231;
+    border-radius: 0px;
+    border: transparent;
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+  .dropdown-menu li a{
+    color: aliceblue;
+  }
+  .dropdown-menu li a:hover {
+    background-color:  #ca783e;
+    color: aliceblue;
+  }
+  .fontGoldNav {
+    background: linear-gradient(to right, #ce7e3e, #ffff 47%, #ce7e3e 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    text-transform: uppercase;	
+    margin: 0;
+    font-size: 18px;
+  }
+  .fontGold {
+    /* background: linear-gradient(to right, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%);  */
+    background: linear-gradient(to right, #ce7e3e, #ffff 47%, #ce7e3e 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    text-transform: uppercase;	
+    margin: 0;
+    font-size: 20px;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 30px;
+    float: right;
+    background-color: #d17021;
+    text-transform: lowercase;
+  }

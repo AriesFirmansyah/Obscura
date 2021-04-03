@@ -1,0 +1,36 @@
+  @font-face {
+    font-family: bodyFontReg;
+    src: url("./../font/TrajanPro-Bold.otf");
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  .navigasi {
+    background-color: transparent;
+    border: transparent;
+    color: black;
+    padding: 3rem;
+  }
+  .navMenu {
+    font-size: 18px;
+    font-weight: bold;
+    color: goldenrod;
+  }
+  .font {
+    font-size: 18px;
+    font-weight: bold;
+    color: goldenrod;
+  }
+  .bg {
+    height:100%; 
+    background-repeat: no-repeat; 
+    background-image: url("./../img/tes1.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "bodyFontReg", sans-serif;
+    color: aliceblue;
+  }

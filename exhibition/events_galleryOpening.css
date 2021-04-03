@@ -1,0 +1,47 @@
+@font-face {
+    font-family: bodyFontBaskerville;
+    src: url(/font/BASKE9.ttf);
+    font-weight: bold;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+.bodyTextGold {
+    background: linear-gradient(to right, #ce7e3e 10%, #ffff 56%, #ce7e3e 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    text-transform: uppercase;	
+    margin: 0;
+    /* font-family: "bodyFontBaskerville"; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bg {
+    height:100%; 
+    background-repeat: no-repeat; 
+    background-image: url("./img/bg_gallery\ openner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "bodyFontBaskerville";
+    color:#573d28;
+    background-position: center;
+}
+.btn {
+    background-color: #305556;
+    border-radius: 40px;
+    margin-top: 100px;
+}
+.btn:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+.modal-header {
+    background-color: #cfb199;
+}
+.bgModal {
+    background-color: #faddc3;
+}
