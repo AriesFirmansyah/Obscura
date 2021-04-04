@@ -63,3 +63,27 @@ html, body {
   text-transform: lowercase;
   font-size: 23px;
 }
+.sizing {
+  width:33.3vmax;
+  height: 300px;
+  margin: -5px;
+  border-radius: 10px;
+}
+.border1 {
+  width: auto;
+  border: 1px solid gray;
+  border-image: url("./../img/live_streaming\ border.png");
+  border-image-slice: 10%;
+  border-width:50px;
+  margin: auto;
+  text-align: center; 
+}
+.content {
+  width: 39vmax;
+  border: 1px solid gray;
+  border-image: url("./../img/live_streaming\ border.png");
+  border-image-slice: 10%;
+  border-width:50px;
+  margin: auto;
+  position: absolute;
+}

@@ -10,6 +10,9 @@
 html, body {
     height: 100%;
 }
+.font1 {
+  font-family: "bodyFontReg";
+}
 .bodyTextGold {
     background: linear-gradient(to right, #ce7e3e 10%, #ffff 56%, #ce7e3e 70%);
     -webkit-background-clip: text;
@@ -18,7 +21,7 @@ html, body {
     text-transform: uppercase;	
     margin: 0;
     /* font-family: "bodyFontBaskerville"; */
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "bodyFontReg";
 }
 .bg {
     height:100%; 
@@ -74,4 +77,16 @@ html, body {
     float: right;
     background-color: #d17021;
     text-transform: lowercase;
+  }
+  .scroll {
+    font-size: 40px;
+    background: linear-gradient(to right, #ce7e3e, #ffff 47%, #ce7e3e 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #commitee {
+    padding-bottom: 10px;
+  }
+  .scrollCont1 {
+    padding-bottom: 100px;
   }

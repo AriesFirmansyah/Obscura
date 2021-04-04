@@ -1,77 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>AOS - Animate on scroll library</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="tes.css" />
+    <link rel="stylesheet" href="dist/aos.css" />
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
     <style>
-
-html {
-	height: 100%;
-}
-
-body {
-    background-color:lightblue;
-}
-
-h1 {
-    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: relative;
-	text-transform: uppercase;	
-	margin: 0;
-	font-weight: bold;
-}
-
-h1::after {
-    background: none;
-    content: attr(data-heading);
-    left: 0;
-	top: 0;
-    z-index: -1;
-    position: absolute;
-    text-shadow: 
-		-1px 0 1px #c6bb9f, 
-		0 1px 1px #c6bb9f, 
-		5px 5px 10px rgba(0, 0, 0, 0.4),
-		-5px -5px 10px rgba(0, 0, 0, 0.4);
-}
-.card2 {
-  position: relative;
-  border: 5px solid transparent;
-  background: #f2f2f2;
-  background-clip: padding-box;
-  
-  border-radius: 10px;
-  width: 100px;
-}
-
-.card2::after {
-  content: '';
-  position: absolute;
-  top: -5px;
-  bottom: -5px;
-  left: -5px;
-  right: -5px;
-  background: linear-gradient(to bottom right, #22c1c3, #fdbb2d);
-  z-index: -1;
-  border-radius: 10px;
-}
+        *{
+            padding: 0;
+            maegin: 0;
+        }
+        .content {
+            width: 43.3vmax;
+            border: 21px solid gray;
+            padding: 50px;
+            border-image: url("./img/live_streaming\ border.png");
+            border-image-slice: 6%;
+            margin: auto;
+        }
+        img {
+            width: 100%;
+            height: 500px;
+        }
+        .sizing {
+            width:43.3vmax;
+            height: 300px;
+        }
     </style>
-</head>
-<body>
-    <div>
-        <h1 data-heading="Winner">Winner</h1>
-    </div>
-    <div class="card2">
-        halo
+  </head>
+  <body>
+    <div class="content">
+        <div class="content1">
+            <img src="./img/1.jpg">
+        </div>
       </div>
-    <a href="https://www.google.com/">
-        <div class="card2">
-            halo
+      <div class="content">
+        <div class="embed-responsive embed-responsive-21by9 border1 content1">
+            <iframe style="border-radius: 20px;" class="embed-responsive-item sizing" src="https://www.youtube.com/embed/uwqlgekMeig?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com" allowfullscreen></iframe>
           </div>
-    </a>
-</body>
+      </div>
+  </body>
 </html>
