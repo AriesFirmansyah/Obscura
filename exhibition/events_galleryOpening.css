@@ -23,7 +23,7 @@ html, body {
 .bg {
     height:100%; 
     background-repeat: no-repeat; 
-    background-image: url("./img/bg_gallery\ openner.jpg");
+    background-image: url("./../img/bg_gallery\ openner.jpg");
     background-size: cover;
     background-attachment: fixed;
     font-family: "bodyFontBaskerville";
@@ -44,4 +44,12 @@ html, body {
 }
 .bgModal {
     background-color: #faddc3;
+}
+.buttonTicket {
+    background-color: #cfb199;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color:#573d28;
+    font-size: 20px;
+    transition: 0.3s;
 }
