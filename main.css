@@ -3,7 +3,7 @@
     src: url(/font/baru/TrajanPro-Bold.otf);
     font-weight: bold;
   }
-  body {
+  /* body {
     background-image: url("./img/bg_home_page.jpg");
     background-size: cover;
     min-height: 100vh;
@@ -11,11 +11,21 @@
     font-family: "bodyFontReg";
     font-weight: 900;
     overflow: hidden;
+    background-repeat: no-repeat;
+  } */
+  .bg {
+    height:100%; 
+    background-repeat: no-repeat; 
+    background-image: url("./img/bg_home_page.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "bodyFontReg", sans-serif;
+    color: aliceblue;
   }
-  .navMenu {
-    font-weight: bold;
-    color: goldenrod;
-    margin-top: -60px;
+
+  nav{
+    /* margin-top: -100px; */
+    /* margin-left: -250px; */
   }
   .dropdown-menu {
     background-color:  #a56231;
