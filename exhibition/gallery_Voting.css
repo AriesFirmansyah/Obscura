@@ -57,7 +57,7 @@ html, body {
     opacity: 0;
     text-align: right;
     margin-top: -70px;
-    margin-right: 5px;
+    margin-right: 45px;
     /* position: absolute; */
     /* transform: translate(250px, -100px);
     -ms-transform: translate(50%, -80%) */
@@ -68,6 +68,7 @@ html, body {
 .gallery1:hover .keterangan {
     opacity: 1;
 }
+
 
 @media screen and (min-width:600px){
     .photoGallery{

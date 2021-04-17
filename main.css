@@ -72,3 +72,10 @@
     background-color: transparent;
     text-transform: lowercase;
   }
+
+  .scroll {
+    font-size: 40px;
+    background: linear-gradient(to right, #ce7e3e, #ffff 47%, #ce7e3e 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
