@@ -26,7 +26,7 @@ html, body {
 .bg {
     height:100%; 
     background-repeat: no-repeat; 
-    background-image: url("./../img/bg_about\ us\ comitee.jpg");
+    background-image: url("./../../img/bg_about\ us\ comitee.jpg");
     background-size: cover;
     background-attachment: fixed;
     font-family: "bodyFontReg";
@@ -89,4 +89,16 @@ html, body {
   }
   .scrollCont1 {
     padding-bottom: 100px;
+  }
+
+  .mediapartner {
+    max-height: 170px; 
+    width: 330px;
+  }
+
+  @media only screen and (max-width: 1024px){
+    .mediapartner{
+      max-height: 120px; 
+      width: 200px;
+    }
   }

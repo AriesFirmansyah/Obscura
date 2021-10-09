@@ -79,3 +79,25 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .footer {
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+    width: 100%;
+    color: white;
+    padding: 30px;
+    float: right;
+    background-color: #d17021;
+    text-transform: lowercase;
+  }
+  .mediapartner {
+    max-height: 170px; 
+    width: 330px;
+  }
+
+  @media only screen and (max-width: 1024px){
+    .mediapartner{
+      max-height: 120px; 
+      width: 200px;
+    }
+  }

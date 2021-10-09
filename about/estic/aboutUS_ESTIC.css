@@ -1,41 +1,40 @@
-  @font-face {
+@font-face {
     font-family: bodyFontReg;
-    src: url("./../font/TrajanPro-Bold.otf");
-  }
-  * {
+    src: url("./../../font/TrajanPro-Bold.otf");
+}
+* {
     margin: 0;
     padding: 0;
-  }
-  html, body {
+}
+html, body {
     height: 100%;
-  }
-  .navigasi {
+}
+.navigasi {
     background-color: transparent;
     border: transparent;
     color: black;
     padding: 3rem;
-  }
-  .navMenu {
+}
+.navMenu {
     font-size: 18px;
     font-weight: bold;
     color: goldenrod;
-  }
-  .font {
+}
+.font {
     font-size: 18px;
     font-weight: bold;
     color: goldenrod;
-  }
-  .bg {
+}
+.bg {
     height:100%; 
     background-repeat: no-repeat; 
-    background-image: url("./../img/tes1.jpg");
-    background-size:cover;
+    background-image: url("./../../img/bg_about us_estic.jpg");
+    background-size: cover;
     background-attachment: fixed;
     font-family: "bodyFontReg", sans-serif;
     color: aliceblue;
-    background-position: right;
-  }
-  .fontGoldNav {
+}
+.fontGoldNav {
     /* background: linear-gradient(to right, #ce7e3e, #ffff 47%, #ce7e3e 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
@@ -61,24 +60,24 @@ color: aliceblue;
 }
 
 .footer {
-  /* position: fixed; */
-  /* left: 0; */
-  /* bottom: 0; */
-  width: 100%;
-  color: white;
-  padding: 30px;
-  float: right;
-  background-color: #d17021;
-  text-transform: lowercase;
-}
-.mediapartner {
-  max-height: 170px; 
-  width: 330px;
-}
-
-@media only screen and (max-width: 1024px){
-  .mediapartner{
-    max-height: 120px; 
-    width: 200px;
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+    width: 100%;
+    color: white;
+    padding: 30px;
+    float: right;
+    background-color: #d17021;
+    text-transform: lowercase;
   }
-}
+  .mediapartner {
+    max-height: 170px; 
+    width: 330px;
+  }
+
+  @media only screen and (max-width: 1024px){
+    .mediapartner{
+      max-height: 120px; 
+      width: 200px;
+    }
+  }

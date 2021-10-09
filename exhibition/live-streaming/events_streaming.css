@@ -1,6 +1,6 @@
 @font-face {
     font-family: bodyFontBaskerville;
-    src: url(/font/BASKE9.ttf);
+    src: url(../../font/BASKE9.ttf);
     font-weight: bold;
 }
 * {
@@ -33,7 +33,7 @@ html, body {
 .bg {
     height:100%; 
     background-repeat: no-repeat; 
-    background-image: url("./../img/bg_live\ stream.jpg");
+    background-image: url("./../../img/bg_live\ stream.jpg");
     background-size: cover;
     background-attachment: fixed;
     font-family: "bodyFontBaskerville";
@@ -52,7 +52,7 @@ html, body {
 .lead {
   text-transform: initial;
 }
-.footer {
+/* .footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -62,7 +62,7 @@ html, body {
   background-color: transparent;
   text-transform: lowercase;
   font-size: 23px;
-}
+} */
 .sizing {
   width:33.3vmax;
   height: 300px;
@@ -72,7 +72,7 @@ html, body {
 .border1 {
   width: auto;
   border: 1px solid gray;
-  border-image: url("./../img/live_streaming\ border.png");
+  border-image: url("./../../img/live_streaming\ border.png");
   border-image-slice: 10%;
   border-width:50px;
   margin: auto;
@@ -81,9 +81,32 @@ html, body {
 .content {
   width: 39vmax;
   border: 1px solid gray;
-  border-image: url("./../img/live_streaming\ border.png");
+  border-image: url("./../../img/live_streaming\ border.png");
   border-image-slice: 10%;
   border-width:50px;
   margin: auto;
   position: absolute;
+}
+
+.footer {
+  /* position: fixed; */
+  /* left: 0; */
+  /* bottom: 0; */
+  width: 100%;
+  color: white;
+  padding: 30px;
+  float: right;
+  background-color: #d17021;
+  text-transform: uppercase;
+}
+.mediapartner {
+  max-height: 170px; 
+  width: 330px;
+}
+
+@media only screen and (max-width: 1024px){
+  .mediapartner{
+    max-height: 120px; 
+    width: 200px;
+  }
 }

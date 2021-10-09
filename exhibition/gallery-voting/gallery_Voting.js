@@ -5,6 +5,14 @@ $(document).ready(function(){
         backdrop: 'static'
     });
 });
+$(document).ready(function(){
+    $('#g1').modal({
+        keyboard: false,
+        show: true,
+        backdrop: true
+        
+    });
+});
 
 $("#atas1").hide();
 $("#atas2").hide();

@@ -1,11 +1,11 @@
   @font-face {
     font-family: bodyFontReg;
-    src: url(/font/baru/TrajanPro-Bold.otf);
+    src: url(../../font/baru/TrajanPro-Bold.otf);
     font-weight: bold;
   }
   @font-face {
     font-family: bodyFontBaskerville;
-    src: url(/font/BASKE9.ttf);
+    src: url(../../font/BASKE9.ttf);
     font-weight: bold;
   }
   .fontBody {
@@ -30,7 +30,7 @@
   .bg {
     height:100%; 
     background-repeat: no-repeat; 
-    background-image: url("./../img/bg_competition.jpg");
+    background-image: url("./../../img/bg_competition.jpg");
     background-size: cover;
     background-attachment: fixed;
     font-family: "bodyFontReg", sans-serif;
@@ -44,16 +44,6 @@
     text-transform: uppercase;	
     margin: 0;
     font-size: 20px;
-  }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    float: right;
-    background-color: transparent;
-    text-transform: lowercase;
   }
   .lower {
     text-transform:initial;
@@ -93,4 +83,27 @@
   .dropdown-menu li a:hover {
     background-color:  #ca783e;
     color: aliceblue;
+  }
+
+  .footer {
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+    width: 100%;
+    color: white;
+    padding: 30px;
+    float: right;
+    background-color: #d17021;
+    text-transform: lowercase;
+  }
+  .mediapartner {
+    max-height: 170px; 
+    width: 330px;
+  }
+
+  @media only screen and (max-width: 1024px){
+    .mediapartner{
+      max-height: 120px; 
+      width: 200px;
+    }
   }

@@ -1,6 +1,6 @@
 @font-face {
     font-family: bodyFontBaskerville;
-    src: url(/font/BASKE9.ttf);
+    src: url(../../font/BASKE9.ttf);
     font-weight: bold;
 }
 * {
@@ -13,14 +13,39 @@ html, body {
 .bg {
     height:100%; 
     background-repeat: no-repeat; 
-    background-image: url("./../img/bg_gallery.jpg");
+    background-image: url("./../../img/bg_gallery.jpg");
     background-size: cover;
     background-attachment: fixed;
     font-family: "bodyFontBaskerville";
     color:#573d28;
     background-position: center;
 }
+.bgOpacity {
+    opacity: 0.2;
+}
+.modalOpacity {
+    opacity: 1;
+}
 .bodyTextGold1 {
+    /* background:linear-gradient(to right, #ce7e3e, #ffe5e5, #ce8f07, rgb(252, 249, 217), #ce7e3e); */
+    background: linear-gradient(to bottom, #c2b18d 22%,#ce7e3e 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#ce7e3e 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    text-transform: uppercase;	
+    margin: 0;
+    font-family: "bodyFontBaskerville";
+  }
+/* .bodyTextGold1 {
+    background: linear-gradient(to right, #ce7e3e 30%, #ffff 56%, #ce7e3e 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    text-transform: uppercase;	
+    margin: 0;
+    font-family: "bodyFontBaskerville";
+} */
+.bodyTextGold2 {
     background: linear-gradient(to top, #ce7e3e 40%, #ffff 56%, #ce7e3e 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
@@ -36,6 +61,7 @@ html, body {
 .cont {
     margin-top: 30px;
     margin-left: 40px;
+    /* background-color: #305556; */
 }
 .title {
     font-weight: 900;
@@ -56,8 +82,8 @@ html, body {
     transition: .5s ease;
     opacity: 0;
     text-align: right;
-    margin-top: -70px;
-    margin-right: 45px;
+    margin-top: -90px;
+    margin-right: 65px;
     /* position: absolute; */
     /* transform: translate(250px, -100px);
     -ms-transform: translate(50%, -80%) */
@@ -65,10 +91,21 @@ html, body {
     /* margin-top: -60px;
     margin-left: 130px; */
 }
+.keterangan h4 {
+    font-size: 18px;
+}
+.modal {
+    background: rgba(0, 0, 0, 0.5);
+}
+.modal-dialog {
+    border: none; max-width: 1000px;
+}
+.modal-content {
+    max-width: 1000px;
+}
 .gallery1:hover .keterangan {
     opacity: 1;
 }
-
 
 @media screen and (min-width:600px){
     .photoGallery{
@@ -80,3 +117,26 @@ html, body {
         max-width:275px;
     }
 }
+
+  .footer {
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+    width: 100%;
+    color: white;
+    padding: 30px;
+    float: right;
+    background-color: #d17021;
+    text-transform: lowercase;
+  }
+  .mediapartner {
+    max-height: 170px; 
+    width: 330px;
+  }
+
+  @media only screen and (max-width: 1024px){
+    .mediapartner{
+      max-height: 120px; 
+      width: 200px;
+    }
+  }
